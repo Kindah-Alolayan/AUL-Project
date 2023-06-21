@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>AUL Diagnosir</title>
+    <link rel ="stylesheet" href = "../static/style.css">
+</head>
+
+<body>
+    <div class="bg-container">
+    <div class = "form-banner">
+        <div class="nav1">
+            <div class="navbar">
+              <img
+                src="../static/imagesw/donate-blood-save-life-isolated-icon-transfusion-medical-aid-charity-donation-vector-campaign-hand-palm-drop-emergency-154489993-removebg-preview%20(1).png"
+                class="logo"
+                width="200"
+                height="200"
+              />
+                 <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="About.html"> About</a></li>
+            <li><a href="Predict.html">Predict</a></li>
+	    <li><a href="Search.html">Search</a></li>
+            <li><a href="AboutUs.html"> AboutUs</a></li>
+            <li><a href="signin.html">Log out</a></li>
+          </ul>
+            </div>
+    <div class="formcontainer">
+        <div class="app-wrapper">
+            <div>
+                <h2>Predict</h2>
+            </div>
+            <form  class="form-wrapper" action = "/uploaded" method = "post" enctype="multipart/form-data">
+                <div class="form-field">
+
+		    <label for="patientName">Patient Name:</label>
+                    <input type="text" id="patientName" name="patientName"><br><br>
+                    
+                    <label for="patientID">Patient ID:</label>
+                    <input type="text" id="patientID" name="patientID"><br><br>
+                    
+                    <label for="patientPhoneNumber">Patient Phone Number:</label>
+                    <input type="text" id="patientPhoneNumber" name="patientPhoneNumber"><br><br>
+                    
+                    <label> Choose Image </label>
+                    <br></br>
+                    <br></br>
+                    <input 
+                        class="file" 
+                        type="file" 
+                        name="file" 
+                        value=""
+                        id="file"
+                    />
+                </div>
+				
+                <div>
+                    <button class="submit" onClick="">Submit</button>
+                </div>
+            </form>
+
+        </div>
+        
+    </div>
+
+
+    </div>
+
+</body>
+
+
+</html>

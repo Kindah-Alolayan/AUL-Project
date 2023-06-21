@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>AUL Diagnosir</title>
+    <link rel ="stylesheet" href = "../static/style.css">
+
+</head>
+
+<body>
+    <div class="bg-container">
+
+
+    <div class = "form-banner">
+        <div class="nav1">
+            <div class="navbar">
+              <img
+                src="../static/imagesw/donate-blood-save-life-isolated-icon-transfusion-medical-aid-charity-donation-vector-campaign-hand-palm-drop-emergency-154489993-removebg-preview%20(1).png"
+                class="logo"
+              />
+            </div>
+    <div class="formcontainer">
+        <div class="app-wrapper">
+            <div>
+                <h2>Sign In</h2>
+            </div>
+            <form  class="form-wrapper" action="/" method = "post" enctype="multipart/form-data">
+                <div class="form-field">
+                    <label>ID</label>
+                    <br></br>
+                    <input
+                        class="input"
+                        type="text"
+                        name="id"
+                        value=""
+                        id="id"
+                    />
+                </div>
+                <div class="form-field">
+                    <label>Password</label>
+                    <br></br>
+                    <input
+                        class="input"
+                        type="password"
+                        name="password"
+                        value=""
+                        id="password"
+                    />
+                </div>
+                <div>
+                    <button class="submit" onclick="">Sign In</button>
+                    <p>{{ output }}</p>
+                    <p class="bottom-text">Forget ID or Password <a href='forgetPassword.html' >
+                        here!</a> </p>
+
+                </div>
+            </form>
+            <p class="bottom-text">Don't have an account? Sign up <a href='signup.html' >
+            here!</a>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+</body>
+
+
+</html>

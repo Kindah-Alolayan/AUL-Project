@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>AUL Diagnosir</title>
+    <link rel ="stylesheet" href = "../static/style.css">
+</head>
+
+
+<body>
+    <div class="bg-container">
+    <div class = "form-banner">
+        <div class="nav1">
+            <div class="navbar">
+              <img
+                src="../static/imagesw/donate-blood-save-life-isolated-icon-transfusion-medical-aid-charity-donation-vector-campaign-hand-palm-drop-emergency-154489993-removebg-preview%20(1).png"
+                class="logo"
+              />
+                 <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="About.html"> About</a></li>
+            <li><a href="Predict.html">Predict</a></li>
+	    <li><a href="Search.html">Search</a></li>
+            <li><a href="AboutUs.html"> AboutUs</a></li>
+            <li><a href="signin.html">Log out</a></li>
+          </ul>
+            </div>
+    <div class="formcontainer">
+        <div class="app-wrapper">
+            <form  class="form-wrapper" >
+                <h1>Results</h1>
+                <div class="form-field">
+                    <p>Diagnosis: </p>
+                    <label id="results" style="font-size: x-large">The image test detect that the tested image are</label>
+              <p><img src="{{img}}" width="300" height="300" /></p>
+
+            <label style="font-size: x-large;" > <span style=" font-weight:bold;color: black;">  &nbsp;{{ output }} </span> &nbsp;with percentage &nbsp;<span style=" font-weight:bold;color: black;"> {{percentage}} </span></label>
+				</div>
+            </form>
+        </div>
+<div class="content2">
+        <a class=".reg" href="Predict.html">Predict Again </a>
+        </div>
+    </div>
+
+
+    </div>
+
+</body>
+
+
+</html>
