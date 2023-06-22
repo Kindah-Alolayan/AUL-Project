@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 # Model saved with Keras model.save()
 # Change Model path according for SERVER!!
-MODEL_fficientNetB3_PATH = r"/Users/taifal.qahtani/Desktop/GitHub/Alibaba Cloud Final Project/Preduict_Save_Life/TrainModel/EfficientNetB3.h5"
+MODEL_fficientNetB3_PATH = r"C:\Users\lenovo\Desktop\github-gp\AUL-Project\Preduict_Save_Life-main\TrainModel\EfficientNetB3.h5"
 
 # Load your trained model
 MODEL_fficientNetB3 = load_model(MODEL_fficientNetB3_PATH)
